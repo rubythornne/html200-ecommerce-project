@@ -25,6 +25,7 @@ img {
 /***nav {
     margin: auto;
 } 
+
 /**************** HERO *****************/
 
 header img {
@@ -55,7 +56,8 @@ aside {
     border: 1px solid blue;
     clear: both;
     float: right;
-  }
+}
+
 /*********** PRODUCTS SECTION ***********/
 
 section {
