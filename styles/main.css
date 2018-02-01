@@ -55,7 +55,8 @@ aside {
     border: 1px solid blue;
     clear: both;
     float: right;
-  }
+}
+
 /*********** PRODUCTS SECTION ***********/
 
 section {
@@ -64,6 +65,7 @@ section {
   border: .5em solid blue;
   float:left;
 }
+
 h2 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -84,7 +86,7 @@ header {
     width: 45em;
     padding: 1em;
     margin: auto;
-  }
+}
 
 
 
