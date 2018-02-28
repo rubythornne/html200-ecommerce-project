@@ -33,7 +33,6 @@ h1 .logo-w {
 /**************** ASIDE ****************/
 
 input[type="submit"] {
-  background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
   font-size: .75rem;
@@ -73,6 +72,17 @@ h3 {
   color: #2d2d2d;
 }
 
+form {
+  padding: 1rem;
+}
 
+@media (max-width: 300px) {
+    section { width: 95%; }
+    aside { width: 90%; }
+}
 
-
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightsteelblue;
+    }
+}
