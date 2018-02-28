@@ -4,6 +4,12 @@ body {
   float: left;
 }
 
+img {
+      max-width: 100%;
+      max-height: 20rem;
+      padding: 1.4em;
+}
+
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
@@ -11,12 +17,6 @@ p {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
-img {
-  max-height: 20rem;
-}
-
-/**************** HERO *****************/
 
 header img {
     max-height: 6rem;
@@ -33,7 +33,6 @@ h1 .logo-w {
 /**************** ASIDE ****************/
 
 input[type="submit"] {
-  background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
   border-radius: 5px;
   font-size: .75rem;
@@ -52,7 +51,7 @@ aside {
 
 section {
   width: 20em;
-  padding: 1em;
+  padding: 1.5em;
   border: .5em solid blue;
   float:left;
 }
@@ -73,3 +72,17 @@ h3 {
   color: #2d2d2d;
 }
 
+form {
+  padding: 1rem;
+}
+
+@media (max-width: 300px) {
+    section { width: 95%; }
+    aside { width: 90%; }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightsteelblue;
+    }
+}
