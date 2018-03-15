@@ -70,3 +70,21 @@ Each weekly assignment will be graded independently. There will not be a final g
 
 ## Testing
 [update this section with information about the testing steps you took to ensure site quality]
+
+User Demographics
+Women 30-70
+Professional
+Office Workers
+Average Salary $45,000
+
+Devices:
+iPhone
+Android
+iPad
+Desktop
+
+Ran through the webpage test on www.webpagetest.com and found that this site needs to use more responsive images for compression issues.
+
+Ran through the responsive test on responsivedesignchecker.com and found that the page does not render well for the iPhone 320 by 480, Samsung Galaxy 360 by 640, Google Pixel 411 by 731, Nexus 384 by 640. It looks okay on the Nexus pad 600 by 960, Apple iPad 768 by 1024, Amazon Kindle 768 by 1024, and Samsung Tab 800 by 1280. More responsive tags will be necessary to enable the website to function better on cell phones.
+
+Several elements that would enhance the user experience on this site include, providing more information on materials used to make the scarves. Another useful element would be a feedback/contact form for users to ask questions about the products. A rating system would also be good for users to see how other users have rated the products.
